@@ -1,0 +1,375 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "hola",
+                "buenas",
+                "saludos",
+                "como estas",
+                "buenos dias",
+                "buenas tardes",
+                "buenas noches",
+                "como vas",
+                "hi"
+            ],
+            "responses": [
+                "Hola, ¿cómo puedo asistirte hoy?",
+                "Buenos días, ¿en qué puedo ayudarte?",
+                "¡Hola! Soy SairaBot, ¿cómo puedo ayudarte?"
+            ]
+        },
+        {
+            "tag": "nombre",
+            "patterns": [
+                "como tu nombre",
+                "como llamas"
+            ],
+            "responses": [
+                "Mi nombre es SairaBot y estoy aquí para asistirte con el proceso de matrícula universitaria.",
+                "Me llamo SairaBot. Estoy disponible para ayudarte con cualquier consulta sobre tu matrícula universitaria."
+            ]
+        },
+        {
+            "tag": "matricula",
+            "patterns": [
+                "donde puedo matricularme",
+                "como puedo matricularme",
+                "en que lugar me matriculo",
+                "quiero matricularme"
+            ],
+            "responses": [
+                "Claro, ¿qué información necesitas sobre la matrícula? \nRequisitos \nInscripción \nCarreras \nPrecio",
+                "¿Cómo puedo asistirte con tu matrícula? \nRequisitos \nInscripción \nCarreras \nEstoy aquí para ayudarte, elige la opción que necesites."
+            ]
+        },
+        {
+            "tag": "jornada",
+            "patterns": [
+                "que jornada tienen",
+                "jornada nocturno",
+                "jornada durna"
+            ],
+            "responses": [
+                "Ofrecemos dos jornadas: Diurna de 8:00 a.m. a 4:00 p.m. y Nocturna de 5:00 p.m. a 9:00 p.m.",
+                "Contamos con una jornada diurna de 8:00 a.m. a 4:00 p.m. y una jornada nocturna de 5:00 p.m. a 9:00 p.m."
+            ]
+        },
+        {
+            "tag": "horario",
+            "patterns": [
+                "cual es el horario",
+                "como escojo el horario",
+                "donde miro el horario"
+            ],
+            "responses": [
+               "Durante el proceso de matrícula en nuestra página web Universidad Barranquilla.com, podrás seleccionar el horario que prefieras.",
+               "Para elegir tu horario, primero debes completar tu matrícula en nuestra página Universidad Barranquilla.com, y luego podrás seleccionar el horario que más te convenga."
+            ]
+        },
+        {
+            "tag": "carreras",
+            "patterns": [
+                "que carreras tienen disponible",
+                "que tipo de prgramas tienen",
+                "muestrame carreras disponibles",
+                "que carreras hay"
+            ],
+            "responses": [
+                "En Universidad Barranquilla ofrecemos las siguientes facultades: \n1. Facultad de Ingeniería \n2. Facultad de Medicina \n3. Facultad de Psicología \n4. Facultad de Educación. ¿Cuál de estas te interesa?"
+            ]
+        },
+        {
+            "tag": "precio_carrera",
+            "patterns": [
+                "precio de",
+                "cuales es el precio",
+                "cuanto cuestan",
+                "cuanto vale",
+                "valor"
+            ],
+            "responses": [
+                "Los precios para nuestras facultades son los siguientes: \n1. Facultad de Ingeniería: $4.200.000 (todos los programas) \n2. Facultad de Medicina: $14.000.000 \n3. Facultad de Psicología: $5.000.000 \n4. Facultad de Educación: $3.400.000 \n5. Matrícula: $120.000. Para más detalles, por favor consulta en nuestra página Universidad Barranquilla/precio.com."
+            ]
+        },
+        {
+            "tag": "carrera_ingenieria",
+            "patterns": [
+                "ingenierias",
+                "que tipo de ingenieria tienes",
+                "ver las ingenierias",
+                "1"
+            ],
+            "responses": [
+                "Las ingenierías disponibles en nuestra universidad son: \n- Ingeniería de Sistemas \n- Ingeniería Industrial \n- Ingeniería Civil. Estos son los programas de ingeniería que ofrecemos."
+            ]
+        },
+        {
+            "tag": "ing_sistema",
+            "patterns": [
+                "ingenieria de sistemas",
+                "informatica",
+                "tecnologia"
+            ],
+            "responses": [
+                "La Ingeniería de Sistemas se enfoca en diversos campos como la programación y la optimización de recursos, con el objetivo de contribuir al desarrollo y bienestar de la sociedad. Para obtener más información sobre el plan de estudios y el perfil de la carrera, visita nuestra página Universidad Barranquilla/carrera.com."
+            ]
+        },
+        {
+            "tag": "ing_civil",
+            "patterns": [
+                "ingenieria civil",
+                "obras",
+                "calles"
+            ],
+            "responses": [
+                "La Ingeniería Civil forma profesionales capacitados para el diseño, gestión y ejecución de proyectos como edificaciones, sistemas viales, acueductos, y más. Estos profesionales pueden desempeñarse a nivel nacional e internacional. Para más detalles sobre el plan de estudios, visita nuestra página Universidad Barranquilla/carrera.com."
+            ]
+        },
+        {
+            "tag": "ing_industrial",
+            "patterns": [
+                "ingenieria industrial",
+                "fabricas",
+                "calles"
+            ],
+            "responses": [
+                "La Ingeniería Industrial forma profesionales enfocados en el diseño, análisis y optimización de sistemas de producción, tanto de logística como de servicios. Estos profesionales contribuyen al mejoramiento continuo de organizaciones en escenarios nacionales e internacionales. Para más información sobre el plan de estudios, consulta nuestra página Universidad Barranquilla/carrera.com."
+            ]
+        },
+        {
+            "tag": "carrera_medicina",
+            "patterns": [
+                "carrera sobre la salud",
+                "carreras sobre la medicina",
+                "profesional de medicina",
+                "2"
+            ],
+            "responses": [
+                "El Programa de Medicina de Universidad Barranquilla forma médicos comprometidos con el bienestar de la persona y la comunidad. Este programa proporciona una formación científica integral y desarrolla competencias para enfrentar los retos de la salud. Para más detalles sobre el plan de estudios, visita nuestra página Universidad Barranquilla/carrera.com."
+            ]
+        },
+        {
+            "tag": "carrera_psicologia",
+            "patterns": [
+                "carrera sobre la psicologia",
+                "carreras sobre la psicologia",
+                "profesional de psicologia",
+                "3"
+            ],
+            "responses": [
+                "La carrera de Psicología en Universidad Barranquilla ofrece una formación científica y ética rigurosa, capacitando a los psicólogos para contribuir a la sociedad desde una perspectiva humanística y científica. Para más información sobre el plan de estudios y el perfil de la carrera, visita nuestra página Universidad Barranquilla/carrera.com."
+            ]
+        },
+        {
+            "tag": "carrera_educacion",
+            "patterns": [
+                "carrera sobre la educacion",
+                "carreras sobre la educacion",
+                "programa de educacion",
+                "4"
+            ],
+            "responses": [
+                "Las licenciaturas disponibles en el área de educación son: \n- Licenciatura en Matemáticas \n- Licenciatura en Química \n- Licenciatura en Literatura. Estos son los programas que ofrecemos en el campo de la educación."
+            ]
+        },
+        {
+            "tag": "lic_matematica",
+            "patterns": [
+                "licenciatura de matematica",
+                "profesor de matematica",
+                "licenciado en matematica"
+            ],
+            "responses": [
+                "La Licenciatura en Matemáticas está diseñada para desarrollar competencias en el análisis y resolución de problemas matemáticos, así como habilidades pedagógicas para la enseñanza de esta disciplina. Para más información sobre el plan de estudios, visita nuestra página Universidad Barranquilla/carrera.com."
+            ]
+        },
+        {
+            "tag": "lic_quimica",
+            "patterns": [
+                "licenciatura de quimica",
+                "profesor de quimica",
+                "licenciado en quimica"
+            ],
+            "responses": [
+                "La Licenciatura en Química proporciona una sólida formación teórica y práctica en química, preparándote para participar en la producción de conocimiento científico y la enseñanza de la materia. Para más información sobre el plan de estudios, consulta nuestra página Universidad Barranquilla/carrera.com."
+            ]
+        },
+        {
+            "tag": "lic_literatura",
+            "patterns": [
+                "licenciatura de literatura",
+                "profesor de literatura",
+                "licenciado en literatura"
+            ],
+            "responses": [
+                "La Licenciatura en Literatura forma profesionales capaces de enseñar español y literatura, con una base pedagógica y didáctica sólida. Este programa está orientado a fomentar el uso crítico y creativo del lenguaje en el contexto de las culturas digitales. Para más detalles, visita nuestra página Universidad Barranquilla/carrera.com."
+            ]
+        },
+        {
+            "tag": "beca",
+            "patterns": [
+                "como puedo obetener una beca",
+                "como me puedo ganar una beca",
+                "dan beca"
+            ],
+            "responses": [
+                "Puedes consultar las becas disponibles en nuestra página web Universidad Barranquilla/becas.com. Allí encontrarás toda la información sobre los requisitos y el proceso de aplicación.",
+                "Para información sobre becas y cómo postularte, visita nuestra página web Universidad Barranquilla/becas.com. Encontrarás los requisitos y el proceso de aplicación."
+            ]
+        },
+        {
+            "tag": "carrera_licenciatura",
+            "patterns": [
+                "licenciaturas",
+                "que tipo de licenciatura tienes",
+                "programa de licenciaturas",
+                "6"
+            ],
+            "responses": [
+                "Programas disponibles de licenciaturas: \n Licenciatura Quimica \n Licenciatura Matematica \n Licenciatura Literatura \n Licenciatura Filosofia \n Licenciatura Economia \n Estan son todas las licenciaturas"
+            ]
+        },
+        {
+            "tag": "requisitos",
+            "patterns": [
+                "requisitos",
+                "requisitos de preinscripcion",
+                "que necesito para preinscribirme"
+            ],
+            "responses": [
+                "Los requisitos son los siguientes\nRealizar la entrevista de admisión con el Director de Programa o un profesor de La Facultad.\nAprobar el examen de clasificación de inglés con el nivel exigido por el programa\nPor último, es necesario cumplir con la nota mínima de la Prueba Saber 11 exigida. Por ultimo Aprobar la entrevista con el Director del Programa y haber cumplido con todos los pasos del proceso de inscripción.\nPara mas informacion consulta en nuestra pagina Universidad Barranquilla/rquisitos"
+            ]
+        },
+        {
+            "tag": "formulario",
+            "patterns": [
+                "donde lleno el formulario",
+                "muestrame el formulario"
+            ],
+            "responses": [
+                "El formulario lo tienes que llenar en nuestra pagina Universidad Barranquilla/matricula, lo llenas y se te enviara al correo un un bolante de pago para la incripcion y mas informacion sobre la amtricula"
+            ]
+        },
+        {
+            "tag": "inscripcion",
+            "patterns": [
+                "como me puedo inscribir",
+                "pasos para la inscripcion",
+                "quiero inscribirme"
+            ],
+            "responses": [
+                "Para la inscripcion necesitas hacer lo siguiente: \nCompletar el formulario de inscripción que tenemos en nuestra pagina Universidad Barranquilla en la seccion matricula academica, luego de llenar el formulario se te mandara un bolante para pagar la matricula. El total a pagar por matricularte es de $120.000 \nCumplir con los rquisitos \nSi no sabes cuales son los requisitos, puedes preguntarme por ellos :)",
+                "Me alegra que quieres inscribirte en nuestra universidad, para hacerlo solo debes cumplir con los siguientes pasos: \nCompletar el formulario de inscripción que tenemos en nuestra pagina Universidad Barranquilla en la seccion matricula academica \nCumplir con los rquisitos \nSi no sabes cuales son los requisitos, puedes preguntarme por ellos :)"
+            ]
+        },
+        {
+            "tag": "puntaje_icfes",
+            "patterns": [
+                "cunato necesito a ver sacado en el icfes",
+                "prueba icfes",
+                "puntaje icfe"
+            ],
+            "responses": [
+                "Con 260 como puntaje icfes, cumples con el requisito del puntaje icfes",
+                "Si sacaste mas de 260 cumples con el requisito del puntaje icfes"
+            ]
+        },
+        {
+            "tag": "precio_matricula",
+            "patterns": [
+                "cual ee el precio de la matricula",
+                "cuanto hay que pagar en la matricula",
+                "total a pagar en la matricula"
+            ],
+            "responses": [
+                "El total a pagar por matricularte es de $70.000",
+                "La matricula cuesta 70.000"
+            ]
+        },
+        {
+            "tag": "contacto",
+            "patterns": [
+                "donde los puedo contactar",
+                "donde los puedo llamar",
+                "comunicarme"
+            ],
+            "responses": [
+                "Puedes contactarnos a través de nuestro correo electrónico info@Universidad Barranquilla.com o llamarnos al 123-456-789. Estamos aquí para ayudarte.",
+                "Para cualquier consulta adicional, puedes escribirnos a info@Universidad Barranquilla.com o llamarnos al 123-456-789. Estaremos encantados de asistirte."
+            ]
+        },
+        {
+            "tag": "numero",
+            "patterns": [
+                "numero celular",
+                "telefono",
+                "numero telefonico"
+            ],
+            "responses": [
+                "Puedes llamarnos al numero 311111111 o comunicarte con nosotros al Whatsapp 310101010101"
+            ]
+        },
+        {
+            "tag": "ubicacion",
+            "patterns": [
+                "donde se encuentran ubicados",
+                "cual es su direccion",
+                "donde puedo ubicarlos",
+                "donde queda"
+            ],
+            "responses": [
+                "Nos encontramos en la direccion Carrera 100, #100-100 Esquina Barrio cien",
+                "Nos puedes encontrar en la direccion Carrera 100, #100-100 Esquina Barrio cien"
+            ]
+        },
+        {
+            "tag": "recomendacion",
+            "patterns": [
+                "que me recomiendas para estudiar",
+                "que puedo estudias",
+                "no se que programa elegir",
+                "ayudame a escoger una carrera"
+            ],
+            "responses": [
+                "Si te apaciona ayudar a los demas, deberias estudiar alguna rama de la salud, si te apasiona enseñar cosas nueva a los demas, te recomiendo alguna licenciatura, Si siempre te apasiono la innovacion y la creacion de inventos lo tuyo es la ingenieria"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "adios",
+                "hasta luego",
+                "nos vemos",
+                "muchas gracias",
+                "gracias"
+            ],
+            "responses": [
+                "¡Hasta luego! Si necesitas más ayuda en el futuro, no dudes en volver.",
+                "Gracias a ti por utilizar nuestros servicios. ¡Hasta pronto!"
+            ]
+        },
+        {
+            "tag": "desconocido",
+            "patterns": [
+                "no entiendo",
+                "no se que decir",
+                "me confundes"
+            ],
+            "responses": [
+                "Lo siento si mi respuesta fue confusa. ¿Puedo aclarar algo más por ti?",
+                "No te preocupes,, En qué puedo ser más específico?"
+            ]
+        },
+        {
+            "tag": "default",
+            "patterns": [
+                "*"
+            ],
+            "responses": [
+                "No tengo información sobre eso en este momento, pero puedo ayudarte con la gestion de la matricula.",
+                "Lo siento, no comprendo tu pregunta. ¿Puedes reformularla o hacer otra consulta?"
+            ]
+        }
+    ]
+}

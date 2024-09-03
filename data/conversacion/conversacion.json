@@ -1,0 +1,22 @@
+[
+    {
+        "user": "Hola",
+        "bot": "\u00a1Hola! Soy SairaBot, \u00bfc\u00f3mo puedo ayudarte?"
+    },
+    {
+        "user": "Quiero que me ayudes a gestionar mi matricula",
+        "bot": "Claro, \u00bfqu\u00e9 informaci\u00f3n necesitas sobre la matr\u00edcula? \nRequisitos \nInscripci\u00f3n \nCarreras \nPrecio"
+    },
+    {
+        "user": "Que carreras hay?",
+        "bot": "En Universidad Barranquilla ofrecemos las siguientes facultades: \n1. Facultad de Ingenier\u00eda \n2. Facultad de Medicina \n3. Facultad de Psicolog\u00eda \n4. Facultad de Educaci\u00f3n. \u00bfCu\u00e1l de estas te interesa?"
+    },
+    {
+        "user": "cuales son sus precios?",
+        "bot": "Los precios para nuestras facultades son los siguientes: \n1. Facultad de Ingenier\u00eda: $4.200.000 (todos los programas) \n2. Facultad de Medicina: $14.000.000 \n3. Facultad de Psicolog\u00eda: $5.000.000 \n4. Facultad de Educaci\u00f3n: $3.400.000 \n5. Matr\u00edcula: $120.000. Para m\u00e1s detalles, por favor consulta en nuestra p\u00e1gina Universidad Barranquilla/precio.com."
+    },
+    {
+        "user": "Okey, gracias",
+        "bot": "Gracias a ti por utilizar nuestros servicios. \u00a1Hasta pronto!"
+    }
+]
